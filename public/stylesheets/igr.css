@@ -1,0 +1,345 @@
+/*font-family: 'Hind Madurai', sans-serif;
+font-family: 'Oleo Script Swash Caps', cursive;
+*/
+html {
+    height: 300px;
+    width: 100%;
+}
+
+.contenedor {
+
+    background: url(../img/abuelos.jpg) 50% 0 fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+}
+
+/* body {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    
+} */
+
+.encabezado {
+    display: flex;
+    background-color: rgba(70, 70, 70, .5);
+
+
+}
+
+header {
+    padding-left: 120px;
+}
+
+div {
+    display: block;
+}
+
+h1,
+li {
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+h1 {
+    font-size: 16px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    transition: all .5s ease;
+    color: white;
+}
+
+nav ul li a.activo {
+
+    color: magenta;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    padding-left: 20px;
+    margin-top: 50px;
+}
+
+nav header {
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+nav ul li a:hover {
+    color: magenta;
+}
+
+footer p a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color: rgba(70, 70, 70, .5);
+    clear: both;
+    text-align: center;
+    padding: 3px 0;
+    margin-top: 12px;
+
+
+}
+
+/* footer {
+    display: block;
+} */
+
+
+.logo {
+    margin-left: 300px;
+    margin-top: 5%;
+
+}
+
+.logo img {
+    margin-left: 30px;
+}
+
+.fondo {
+    text-align: center;
+    height: 400px;
+    width: 800px;
+    padding-top: 80px;
+    background-color: transparent;
+    margin: 20px 0px 0px 350px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 60px;
+    color: magenta;
+    font-family: 'Franklin Gothic Medium';
+    display: contents;
+    -webkit-text-stroke: 1px black;
+
+}
+
+h3 {
+    font-size: 20px;
+    color: magenta;
+    font-family: 'Franklin Gothic Medium';
+
+}
+
+/*inicio quienes somos*/
+
+.fondo2 {
+    text-align: center;
+    height: 300px;
+    width: 600px;
+    padding-top: 60px;
+    background-color: rgba(30, 15, 50, 0.8);
+    margin: 20px 0px 0px 350px;
+    border-radius: 10px;
+}
+
+.fondo2 p {
+    font-size: 20px;
+    color: white;
+    font-family: arial;
+    padding: 10px;
+}
+
+.contenido2 {
+    padding-left: 110px;
+    padding-bottom: 120px;
+}
+
+/*inicio fotos*/
+
+.foto {
+    display: flex;
+    /* flex-wrap: wrap; */
+
+}
+
+.foto img {
+    width: 200px;
+    height: 200px;
+
+    border-radius: 50px 10px 10px 10px;
+
+}
+
+.foto .img1 {
+    /* transition: all 1s ease; */
+    /* background-color: aqua; */
+    width: 200px;
+    height: 200px;
+    padding-left: 15px;
+    border-radius: 50px 10px 10px 10px;
+
+}
+
+.foto .img1 img {
+    transition: all .5s ease;
+}
+
+.foto .img1:hover img {
+    box-shadow: 2px 2px 10px black;
+    width: 205px;
+    height: 205px;
+
+
+}
+
+.contenido .foto {
+    margin-left: -210px;
+
+}
+
+/*inicio Nuestro Equipo*/
+.foto2 div {
+    margin-bottom: -30px;
+    padding: 10px;
+}
+
+.foto2 img {
+
+    width: 400px;
+    height: 300px;
+    transition: all .5s ease;
+}
+
+.foto2 img:hover {
+    width: 405px;
+    height: 305px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px black;
+
+}
+
+/*inicio contacto*/
+
+.contacto {
+    /* background-color: black; */
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.formulario input,
+.formulario textarea {
+
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.formulario p label {
+    margin-right: 5px;
+
+}
+
+.formulario p textarea {
+    height: 50px;
+    width: 190px;
+    resize: none;
+}
+
+.formulario input[type="submit"] {
+    background-color: #fb04c1;
+    cursor: pointer;
+    color: white;
+    margin: auto;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #984099;
+}
+
+.datos ul li {
+    list-style: none;
+}
+
+.datos li a {
+    text-decoration: none;
+    color: black;
+}
+
+/*inicio actividades*/
+table {
+    table-layout: fixed;
+    width: 60%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+    margin-left: 340px;
+    margin-top: 20px;
+}
+
+thead th:nth-child(1) {
+    width: 20%;
+}
+
+thead th:nth-child(2) {
+    width: 20%;
+}
+
+thead th:nth-child(3) {
+    width: 20%;
+}
+
+thead th:nth-child(4) {
+    width: 20%;
+}
+
+th,
+td {
+    padding: 20px;
+}
+
+th {
+    letter-spacing: 2px;
+}
+
+td {
+    letter-spacing: 1px;
+}
+
+tbody td {
+    text-align: center;
+}
+
+
+thead {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+thead th {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
+    border: 3px solid purple;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ff33cc;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e495e4;
+}
+
+table {
+    background-color: #ff33cc;
+}
+
+
+/*responsive*/
+
+@media screen and (max-width:550px) {
+
+
+
+}
