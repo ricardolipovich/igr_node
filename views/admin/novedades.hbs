@@ -28,76 +28,19 @@
                     </tr>
                 </thead>
                 <tbody>
+                    {{#each novedades }}
                     <tr>
-                        <th scope="row">Lunes</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
+                        <th scope="row">{{dia}}</th>
+                        <td>{{manana}}</td>
+                        <td>{{tarde}}</td>
+                        <td>{{noche}}</td>
                         <td class="text-end">
                             <a href="" class="btn btn-secondary"><i class="fa-solid fa-pencil"></i></a>
                             <a href="" class="btn btn-secondary"><i class="fa-solid fa-trash"></i></a>
                         </td>
                     </tr>
-                    <tr>
-                        <th scope="row">Martes</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                        <td class="text-end">
-                            <a href="" class="btn btn-secondary"><i class="fa-solid fa-pencil"></i></a>
-                            <a href="" class="btn btn-secondary"><i class="fa-solid fa-trash"></i></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Miercoles</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                        <td class="text-end">
-                            <a href="" class="btn btn-secondary"><i class="fa-solid fa-pencil"></i></a>
-                            <a href="" class="btn btn-secondary"><i class="fa-solid fa-trash"></i></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Jueves</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                        <td class="text-end">
-                            <a href="" class="btn btn-secondary"><i class="fa-solid fa-pencil"></i></a>
-                            <a href="" class="btn btn-secondary"><i class="fa-solid fa-trash"></i></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Viernes</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                        <td class="text-end">
-                            <a href="" class="btn btn-secondary"><i class="fa-solid fa-pencil"></i></a>
-                            <a href="" class="btn btn-secondary"><i class="fa-solid fa-trash"></i></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Sabado</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                        <td class="text-end">
-                            <a href="" class="btn btn-secondary"><i class="fa-solid fa-pencil"></i></a>
-                            <a href="" class="btn btn-secondary"><i class="fa-solid fa-trash"></i></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Domingo</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                        <td class="text-end">
-                            <a href="" class="btn btn-secondary"><i class="fa-solid fa-pencil"></i></a>
-                            <a href="" class="btn btn-secondary"><i class="fa-solid fa-trash"></i></a>
-                        </td>
-                    </tr>
+                    {{/each}}
+                    
                 </tbody>
 
             </table>
