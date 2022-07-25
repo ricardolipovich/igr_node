@@ -8,48 +8,15 @@
         </tr>
     </thead>
     <tbody>
+        {{#each novedades}}
         <tr>
-            <th scope="row">LUNES</th>
-            <td>XXXXX</td>
-            <td>XXXXX</td>
-            <td>XXXXX</td>
-        </tr>
-        <tr>
-            <th scope="row">MARTES</th>
-            <td>XXXXX</td>
-            <td>XXXXX</td>
-            <td>XXXXX</td>
+            <th scope="row">{{dia}}</th>
+            <td>{{manana}}</td>
+            <td>{{tarde}}</td>
+            <td>{{noche}}</td>
         </tr>
 
-        <tr>
-            <th scope="row">MIERCOLES</th>
-            <td>XXXXX</td>
-            <td>XXXXX</td>
-            <td>XXXXX</td>
-        </tr>
-        <tr>
-            <th scope="row">JUEVES</th>
-            <td>XXXXX</td>
-            <td>XXXXX</td>
-            <td>XXXXX</td>
-        </tr>
-        <tr>
-            <th scope="row">VIERNES</th>
-            <td>XXXXX</td>
-            <td>XXXXX</td>
-            <td>XXXXX</td>
-        </tr>
-        <tr>
-            <th scope="row">SABADO</th>
-            <td>XXXXX</td>
-            <td>XXXXX</td>
-            <td>XXXXX</td>
-        </tr>
-        <tr>
-            <th scope="row">DOMINGO</th>
-            <td>XXXXX</td>
-            <td>XXXXX</td>
-            <td>XXXXX</td>
-        </tr>
+        {{/each}}
+       
     </tbody>
 </table>
