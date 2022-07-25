@@ -1,0 +1,31 @@
+<div class="container margenes">
+    <div class="row">
+        <div class="col">
+            <h3>Modificar los Eventos del dia {{novedad.dia}}</h3>
+            
+            <form action="/admin/novedades/modificar" method="post">
+            <input type="hidden" value="{{novedad.id}}" name="id">
+                <div class="mb-3">
+                    <label for="" class="form-label">Dia</label>
+                    <input type="text" class="form-control" name="dia" value="{{novedad.dia}}">
+                </div>
+                <div class="mb-3">
+                    <label for="" class="form-label">Mañana</label>
+                    <textarea class="form-control" name="manana" rows="3">{{novedad.manana}}</textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="" class="form-label">Tarde</label>
+                    <textarea class="form-control" name="tarde" rows="3">{{novedad.tarde}}</textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="" class="form-label">Noche</label>
+                    <textarea class="form-control" name="noche" rows="3">{{novedad.noche}}</textarea>
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary mb-3">Modificar</button>
+                </div>
+            </form>
+          
+        </div>
+    </div>
+</div>

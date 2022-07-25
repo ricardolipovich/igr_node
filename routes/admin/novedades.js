@@ -63,4 +63,26 @@ router.get('/modificar/:id', async (req, res, next) => {
     })
 })
 
+router.post('/modificar', async(req,res,next)=>{
+    try{
+        var obj = {
+            dia:req.body.dia,
+            manana:req.body.manana,
+            tarde:req.body.tarde,
+            noche:req.body.noche
+        }
+
+        await novedadesModel.modificarNovedadesByID(obj, req.body.id);
+        res.redirect('/admin/novedades');
+
+    }catch(error){
+        console.log(error)
+        res.render('admin/modificar',{
+            layout:'admin/layout',
+            error: true,
+            message:'No se pudo Modificar'
+        })
+    }
+})
+
 module.exports = router;
